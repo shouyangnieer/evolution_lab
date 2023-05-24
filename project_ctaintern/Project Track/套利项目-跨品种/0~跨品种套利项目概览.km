@@ -1,0 +1,178 @@
+{
+    "root": {
+        "data": {
+            "id": "crmrpxonsaw0",
+            "created": 1680489245432,
+            "text": "商品期货套利"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "crmrq7aa5yw0",
+                    "created": 1680489266330,
+                    "text": "跨期套利",
+                    "layout_mind_offset": {
+                        "x": -520.9999999999999,
+                        "y": -7
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "crmrqc15m3k0",
+                    "created": 1680489276662,
+                    "text": "跨品种套利",
+                    "layout_mind_offset": {
+                        "x": -77,
+                        "y": -32
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "crmrqmv0tuo0",
+                            "created": 1680489300236,
+                            "text": "问题定义",
+                            "layout_right_offset": {
+                                "x": -17,
+                                "y": -81
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "crmrtezxd5s0",
+                                    "created": 1680489518211,
+                                    "text": "统计套利"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "crmryjbuav40",
+                                    "created": 1680489919459,
+                                    "text": "本质是针对品种对所涉及品种的投机交易",
+                                    "layout_right_offset": {
+                                        "x": 8,
+                                        "y": -140
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "crmrty1ivhc0",
+                                    "created": 1680489559666,
+                                    "text": "相对原始价格具有更高的波动性及更低的手续费，什么情况下交易价差更有利？"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "crmrvcfp0cw0",
+                                            "created": 1680489669362,
+                                            "text": "原始品种高相关，价格走势相关性高，但价差走势更流畅且一致"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "crmrvo07go80",
+                                            "created": 1680489694547,
+                                            "text": "原始品种强弱不一致，价差走阔"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "crms3sqyt8o0",
+                            "created": 1680490331786,
+                            "text": "交易方式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "crms6emccd40",
+                                    "created": 1680490536124,
+                                    "text": "因子化方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "crms6qfq0r40",
+                                            "created": 1680490561845,
+                                            "text": "时序因子"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "crms810psts0",
+                                                    "created": 1680490663246,
+                                                    "text": "中高频统计套利"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "crms8a3octs0",
+                                                            "created": 1680490683016,
+                                                            "text": "如何有效战胜交易成本"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "crms6upp0280",
+                                            "created": 1680490571155,
+                                            "text": "截面因子"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "crms6ynwz6g0",
+                                    "created": 1680490579754,
+                                    "text": "时序CTA"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "crms7aqhx6w0",
+                                            "created": 1680490606032,
+                                            "text": "寻找相对交易原始价格序列更有利的应用场景"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "crmrqgfhccw0",
+                    "created": 1680489286236,
+                    "text": "跨市场套利",
+                    "layout_mind_offset": {
+                        "x": -25,
+                        "y": 32
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

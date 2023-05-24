@@ -1,0 +1,242 @@
+{
+    "root": {
+        "data": {
+            "id": "crmqz1maqf40",
+            "created": 1680487138164,
+            "text": "日内因子"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "crmr677u68w0",
+                    "created": 1680487698899,
+                    "text": "问题定义"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "crmrhxepf280",
+                            "created": 1680488617916,
+                            "text": "直觉：浏览品种每日涨跌，横向观察，部分品种日内涨跌很一致"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "crmrikpaxf40",
+                            "created": 1680488668623,
+                            "text": "目标：捕捉品种日内相对强势上涨、下跌行情"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "crmrj5vq40g0",
+                            "created": 1680488714724,
+                            "text": "定义：设计因子，截面多空，label设计为持有到收盘平仓，检验因子有效性"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "crmr6qtgxww0",
+                    "created": 1680487741566,
+                    "text": "因子类别"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "crmr6ysojoo0",
+                            "created": 1680487758932,
+                            "text": "动量"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "crmr9lhl49s0",
+                                    "created": 1680487965056,
+                                    "text": "固定窗口 SR64"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "crmrkbltsls0",
+                                            "created": 1680488805550,
+                                            "text": "捕捉日间动量"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "crmra3e4ti00",
+                                    "created": 1680488004029,
+                                    "text": "动态窗口 ema_cross_roc64"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "crmrkot07m00",
+                                            "created": 1680488834283,
+                                            "text": "行情转向后因子更快转向"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "crmrladpdcw0",
+                                    "created": 1680488881247,
+                                    "text": "日内动量因子"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "crmrliivecg0",
+                                            "created": 1680488898973,
+                                            "text": "剔除昨日涨跌影响，捕捉纯日内动量"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "crmrbn2jogg0",
+                                    "created": 1680488125228,
+                                    "text": "tick 动量因子？"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "crmrlwkt1k80",
+                                            "created": 1680488929565,
+                                            "text": "基于tick设计因子，期望与分钟数据有较低相关性"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "crmr730lox40",
+                            "created": 1680487768119,
+                            "text": "反转"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "crmraq8w04o0",
+                                    "created": 1680488053779,
+                                    "text": "日间反转"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "crmrb364ht40",
+                                    "created": 1680488081909,
+                                    "text": "日内反转"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "crmrbzdk66o0",
+                    "created": 1680488152016,
+                    "text": "bar 类别"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "crmrclodjbk0",
+                            "created": 1680488200559,
+                            "text": "时间bar 5min"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "crmrcqmxeeo0",
+                            "created": 1680488211356,
+                            "text": "volume bar？"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "crmrfeqywow0",
+                    "created": 1680488420571,
+                    "text": "风险分析"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "crmrfsiy6bs0",
+                            "created": 1680488450561,
+                            "text": "v形反转行情"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "crmrg31oq3k0",
+                            "created": 1680488473463,
+                            "text": "日内波动不足覆盖交易成本"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "crmrgplmscg0",
+                                    "created": 1680488522557,
+                                    "text": "策略时序择时"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "crmrghovy9c0",
+                            "created": 1680488505339,
+                            "text": "因子失效"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "crmrgzwz1pc0",
+                                    "created": 1680488545010,
+                                    "text": "因子风控"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "crmrh9c9xrs0",
+                                    "created": 1680488565527,
+                                    "text": "因子动态管理"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
